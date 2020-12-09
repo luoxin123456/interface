@@ -63,3 +63,6 @@ public class text {
 }
 ```
 ＃#实验结果
+https://github.com/luoxin123456/interface/blob/main/fee3e9516f8da821d21f9b0c0dece25.png
+##实验感想
+通过本次实验，我清楚的发现了自己的不足，还有很多需要学习，在实验过程中，我还有很多不会，所以只能简化实验，并且在同学的帮助下才能完成本次实验。以后我将会反复练习java
