@@ -5,4 +5,16 @@
 2。掌握Java中接口的定义
 3。了解异常类的使用方法，并在程序中根据输入的情况做异常处理
 ＃实验过程
-定义在实验初期最初我创造了两个接口，在学生接口用抽象类定义缴纳学费，查询学费。在老师接口用
+定义在实验初期最初我创造了两个接口，在学生接口使用抽象类定义缴纳学费，查询学费，在老师接口使用方法定义分配工资以及查询薪水。在博士生中实现两个接口，并且将他们实例化
+＃#核心代码
+1。用方法定义两个接口
+```
+ interface Studentinterface{					
+	 void setFee(int fee);				
+	 int getFee();
+ }
+  interface Teacherinterface{
+	  void setSalary(int salary);
+	 int  getSalary();
+  }
+  ```
