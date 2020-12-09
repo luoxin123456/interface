@@ -18,3 +18,30 @@
 	 int  getSalary();
   }
   ```
+2。
+用博士生实现两个接口
+ public class Doctor implements Studentinterface,Teacherinterface{
+	   private String name;
+	   private int age;
+	   private int fee;
+	   private int salary;
+	   public Doctor(String name,int fee,int salary){
+		   this.name=name;
+		   this.fee=fee;
+		   this.salary=salary;
+```
+3。在博士生中实现两个接口里面定义的方法
+```
+  public int getFee() {
+		   return this.fee;
+	   }
+	   public void  setFee(int fee) {
+		   this.fee=fee;
+	   }
+		public int getSalary() {
+            return this.salary;
+		}
+	   public void setSalary(int salary) {
+		   this.salary=salary;
+   }
+   ```
