@@ -20,8 +20,8 @@
   ```
 2。
 用博士生实现两个接口
- public class Doctor implements Studentinterface,Teacherinterface{
-	   private String name;
+```
+private String name;
 	   private int age;
 	   private int fee;
 	   private int salary;
@@ -45,4 +45,21 @@
 		   this.salary=salary;
    }
    ```
-4.用if
+4.用if语句判断是否需要交付税
+```
+if((this.salary-this.fee) > 1500) {
+		   System.out.println("你需要纳税");}
+		   else if((this.salary-this.fee) <= 1500) {
+		   System.out.println("你不需要纳税");}
+	   }
+```
+5，用两个博士生实例化接口
+```
+public class text {
+  public static void main(String[] args) {
+	  new Doctor("A", 3000, 4500);
+	  new Doctor("B", 4500, 2400);  
+  }
+}
+```
+＃#实验结果
