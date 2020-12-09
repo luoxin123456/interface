@@ -45,3 +45,4 @@
 		   this.salary=salary;
    }
    ```
+4.用if
